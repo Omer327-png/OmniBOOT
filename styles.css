@@ -1,0 +1,134 @@
+/* Genel Ayarlar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 20px 40px 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 40px 20px 30px;
+  border-radius: 0 0 15px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 30px auto;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.usage-scenario {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.usage-scenario h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  margin-top: 20px;
+}
+
+.time-block {
+  border-left: 3px solid #004aad;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.time-block h3 {
+  margin-top: 0;
+  color: #0072e8;
+}
+
+.time-block::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+  background-color: #004aad;
+  border-radius: 50%;
+}
+
+.features {
+  max-width: 700px;
+  margin: 50px auto 30px;
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.features h2 {
+  color: #004aad;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+
+.features ul li {
+  background: url('data:image/svg+xml;utf8,<svg fill="%23004aad" height="12" viewBox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17l-3.88-3.88-1.41 1.41L9 19 20.29 7.71l-1.41-1.41z"/></svg>') no-repeat left center;
+  background-size: 16px 16px;
+  padding-left: 25px;
+  margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .usage-scenario, .features {
+    padding: 20px 15px;
+  }
+}
